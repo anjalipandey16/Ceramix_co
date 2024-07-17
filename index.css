@@ -1,0 +1,262 @@
+* {
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline-block;
+    margin: 0 32px 0 0;
+    font-weight: 300;
+}
+
+.navbar {
+    margin: 32px;
+    margin-top: 32px;
+    font-weight: 300;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 20px #F2F4F6;
+}
+
+.list {
+    display: inline-block;
+}
+
+.nav_list {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+}
+
+.list ul {
+    padding: 0;
+}
+
+.list a:hover {
+    border-bottom: 1px solid black;
+}
+
+.card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+.card h2 {
+    display: inline-block;
+    margin: 8px 0 16px 0;
+    font-weight: 300;
+}
+
+.card {
+    width: 49.75%;
+    box-sizing: border-box;
+    padding: 16px;
+    display: inline-block;
+}
+
+.gallery {
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro {
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 20px #F2F4F6;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.intro h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.contact {
+    width: 300px;
+    left: 405px;
+    top: 50px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    top: 2px;
+}
+
+.contact h3 {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #F2F4F6;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h1 {
+    display: inline-block;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.socials {
+    margin: 30px auto;
+    width: 200px;
+    height: auto;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+h5 {
+    width: auto;
+    margin-top: 20px;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.mage {
+    opacity: 0.4;
+    position: absolute;
+    top: 2300px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.quote {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+}
+
+.h3 {
+    font-size: 35px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 2px 2px 20px #F2F4F6;
+    width: 100%;
+}
+
+.image_box {
+    width: 100%;
+    height: 660px;
+    display: inline-block;
+}
+
+.image_1 {
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+    width: 50%;
+    height: auto;
+    z-index: -1;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 1200px) {
+    .intro {
+        min-width: auto;
+        width: 90%;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        width: 90%;
+        min-width: auto;
+        margin: 50px auto;
+    }
+    .navbar {
+        margin: 16px;
+    }
+    .contact {
+        width: 100%;
+        left: 0;
+    }
+    .footer h1 {
+        display: block;
+        margin: 0 auto;
+    }
+    .socials {
+        margin: 20px auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro {
+        width: 90%;
+        min-width: auto;
+        margin: 20px auto;
+    }
+    .navbar {
+        margin: 8px;
+    }
+    .footer {
+        padding: 10px;
+    }
+    .footer h1 {
+        display: block;
+        margin: 0 auto;
+    }
+    .socials {
+        margin: 10px auto;
+        width: 100%;
+    }
+    .icon {
+        margin-right: 5px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+}
+
+
